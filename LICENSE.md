@@ -1,1 +1,0 @@
-Mongolian Map is GPL.
