@@ -1,4 +1,7 @@
-Mongolian Map
+Mongolia Map
 ============
 
-Vectoral Javascript Mongolian Map
+Vectoral Javascript Mongolia Map.
+License
+============
+Mongolia Map is GPL
