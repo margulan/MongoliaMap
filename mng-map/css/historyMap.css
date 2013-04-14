@@ -1,0 +1,18 @@
+body {
+background: #0197b8;
+}
+
+#canvas {
+	text-align:center;
+}
+#paper {
+}
+#mapTitle{
+	position:absolute;
+	color:white;
+	width:100%;
+	text-align:center
+}
+#main_messsage_box_into{
+	height:400px;
+}
