@@ -10,6 +10,6 @@ Browser compatibility test isn't completed.
 
 License
 ============
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation.
+MIT
 
 Copyright 2013.
