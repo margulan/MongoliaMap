@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mongolia Map</title>
         <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="css/historyMap.css" type="text/css" media="screen">
@@ -9,7 +10,7 @@
         <script type="text/javascript" src="js/paths/mng.js"></script>
         <script type="text/javascript" src="js/historyMap.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="https://raw.github.com/DmitryBaranovskiy/raphael/master/raphael-min.js" type="text/javascript"></script>
+        <script src="js/raphael-min.js" type="text/javascript"></script>
         <script type="text/javascript">
 			window.onload = function ()
 			{
@@ -18,22 +19,6 @@
         </script>
     </head>
     <body>
-	<div id="main_messsage_box" class="modal hide fade"  style="display: none; border-radius: 3px; left:40%; top:5%; width:800px">
-		<div id="sehirTakirp" class="modal-header">
-			<button type="button" class="close" data-dismiss="modal"  aria-hidden="true">&times;</button>
-			<h3>Test Exam</h3>
-		</div>
-
-        <div class="modal-body">
-            <div id="main_messsage_box_into" >
-
-            </div>
-        </div>
-        <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-        </div>
-	</div>
-    
         <div id="canvas">
         	<h2 id="mapTitle"></h2>
             <div id="paper"></div>
