@@ -1,18 +1,67 @@
 body {
-background: #0197b8;
+	background-color: silver;
 }
 
 #canvas {
 	text-align:center;
+	width: auto;
+	height: auto;
 }
+
 #paper {
+
 }
+
 #mapTitle{
 	position:absolute;
-	color:white;
-	width:100%;
+	color: black;
+	width:auto;
 	text-align:center
 }
+
 #main_messsage_box_into{
-	height:400px;
+	height:auto;
+}
+
+@media(min-width: 1200px) and (max-width: 10000px){
+
+	#paper svg{
+		zoom: 1;
+	}
+}
+@media(min-width: 1000px) and (max-width: 1200px){
+
+	#paper svg{
+		zoom: 0.8;
+	}
+}
+@media(min-width: 800px) and (max-width: 1000px){
+
+	#paper svg{
+		zoom: 0.6;
+	}
+}
+@media(min-width: 600px) and (max-width: 800px){
+
+	#paper svg{
+		zoom: 0.4;
+	}
+}
+@media(min-width: 500px) and (max-width: 600px){
+
+	#paper svg{
+		zoom: 0.35;
+	}
+}
+@media(min-width: 400px) and (max-width: 500px){
+
+	#paper svg{
+		zoom: 0.3;
+	}
+}
+@media(min-width: 300px) and (max-width: 400px){
+
+	#paper svg{
+		zoom: 0.25;
+	}
 }
