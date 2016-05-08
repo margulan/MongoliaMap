@@ -1,4 +1,4 @@
-/*
+﻿/*
   Document   : Vectoral Mongolian Map with RaphaelJS
   @author Margulan BYEKMURAT <http://margulan.com> <http://twitter.com/margulan @margulan>
   @author Tortuvshin Byambaa <http://tortuvshin.github.io>
